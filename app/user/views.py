@@ -2,7 +2,6 @@
 Views for the user API.
 """
 from rest_framework import generics, authentication, permissions
-from user.serializers import UserSerializer
 from user.serializers import (
     UserSerializer,
     AuthTokenSerializer,
